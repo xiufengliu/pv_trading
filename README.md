@@ -1,6 +1,9 @@
-# Feature-Driven Reinforcement Learning for Photovoltaic Intraday Trading
+# Feature-Driven Trading Policies for Photovoltaic Intraday Markets
 
-This repository contains the implementation for the IEEE TSG paper "Feature-Driven Reinforcement Learning for Photovoltaic in Continuous Intraday Trading" with real Danish market data integration.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository implements a comprehensive machine learning framework for photovoltaic (PV) intraday trading in electricity markets. The system combines linear policy optimization with reinforcement learning techniques to maximize trading profits while minimizing imbalance costs.
 
 ## 🎯 Paper Review Summary
 
