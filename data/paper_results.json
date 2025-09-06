@@ -1,0 +1,61 @@
+{
+  "best_policy": "lasso_alpha_0.01",
+  "total_profit": 82.20566366949753,
+  "avg_profit_per_hour": 0.031448226346403034,
+  "sharpe_ratio": 0.23831786490354157,
+  "n_trades": 524,
+  "trade_ratio": 0.20045906656465187,
+  "imbalance_reduction": 0.28121870108341146,
+  "feature_importance": [
+    {
+      "feature": "irradiance",
+      "weight": -1.0150540443240565,
+      "abs_weight": 1.0150540443240565
+    },
+    {
+      "feature": "imbalance_price_lag1",
+      "weight": -0.1821320193705552,
+      "abs_weight": 0.1821320193705552
+    },
+    {
+      "feature": "cloud_cover",
+      "weight": 0.12168833314839013,
+      "abs_weight": 0.12168833314839013
+    },
+    {
+      "feature": "hour",
+      "weight": 0.10933035475532155,
+      "abs_weight": 0.10933035475532155
+    },
+    {
+      "feature": "forecast_deviation",
+      "weight": -0.10649142298999609,
+      "abs_weight": 0.10649142298999609
+    },
+    {
+      "feature": "liquidity_ratio",
+      "weight": 0.09280836190298335,
+      "abs_weight": 0.09280836190298335
+    },
+    {
+      "feature": "generation_volatility",
+      "weight": -0.0834831759794127,
+      "abs_weight": 0.0834831759794127
+    },
+    {
+      "feature": "price_volatility",
+      "weight": -0.07353315431681577,
+      "abs_weight": 0.07353315431681577
+    },
+    {
+      "feature": "da_price",
+      "weight": -0.06780745118424124,
+      "abs_weight": 0.06780745118424124
+    },
+    {
+      "feature": "price_trend",
+      "weight": 0.06772774080560853,
+      "abs_weight": 0.06772774080560853
+    }
+  ]
+}

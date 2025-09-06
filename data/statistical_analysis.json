@@ -1,0 +1,9 @@
+{
+  "mean_difference": 0.028618020736902883,
+  "t_statistic": 11.814200139588875,
+  "t_pvalue": 8.345577351890763e-32,
+  "u_statistic": 4395358.0,
+  "u_pvalue": 3.696882635302454e-92,
+  "cohens_d": 0.32685084852572094,
+  "significant_at_5pct": true
+}

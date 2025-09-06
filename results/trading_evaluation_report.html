@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>PV Trading Strategy Evaluation Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
+                th { background-color: #f2f2f2; }
+                .metric { font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <h1>PV Trading Strategy Evaluation Report</h1>
+            
+            <h2>Summary Statistics</h2>
+            <table border="1" class="dataframe summary-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total_profit</th>
+      <th>avg_profit_per_hour</th>
+      <th>profit_std</th>
+      <th>sharpe_ratio</th>
+      <th>max_drawdown</th>
+      <th>n_trades</th>
+      <th>trade_ratio</th>
+      <th>total_volume</th>
+      <th>avg_volume_per_trade</th>
+      <th>total_imbalance_cost</th>
+      <th>avg_abs_imbalance</th>
+      <th>imbalance_reduction</th>
+      <th>win_rate</th>
+      <th>profit_factor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Linear Policy</th>
+      <td>76.320992</td>
+      <td>0.029197</td>
+      <td>0.150573</td>
+      <td>0.193905</td>
+      <td>-2.374252e-01</td>
+      <td>510.0</td>
+      <td>0.195103</td>
+      <td>41.395924</td>
+      <td>0.081168</td>
+      <td>12.477140</td>
+      <td>0.022597</td>
+      <td>0.996685</td>
+      <td>0.185157</td>
+      <td>9.885039</td>
+    </tr>
+    <tr>
+      <th>Spot Only</th>
+      <td>-15.448562</td>
+      <td>-0.005910</td>
+      <td>0.021341</td>
+      <td>-0.276914</td>
+      <td>-1.544856e+07</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>15.448562</td>
+      <td>0.028800</td>
+      <td>0.995896</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Deterministic</th>
+      <td>-14.681813</td>
+      <td>-0.005617</td>
+      <td>0.022738</td>
+      <td>-0.247003</td>
+      <td>-1.468181e+07</td>
+      <td>7.0</td>
+      <td>0.002678</td>
+      <td>0.449437</td>
+      <td>0.064205</td>
+      <td>15.546044</td>
+      <td>0.028972</td>
+      <td>0.995870</td>
+      <td>0.001148</td>
+      <td>0.040325</td>
+    </tr>
+    <tr>
+      <th>Naive Forecast</th>
+      <td>11.875647</td>
+      <td>0.004543</td>
+      <td>0.108391</td>
+      <td>0.041913</td>
+      <td>-1.002239e+05</td>
+      <td>28.0</td>
+      <td>0.010712</td>
+      <td>14.358673</td>
+      <td>0.512810</td>
+      <td>12.730637</td>
+      <td>0.024278</td>
+      <td>0.996618</td>
+      <td>0.010329</td>
+      <td>1.975154</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <h2>Key Findings</h2>
+            <ul>
+        
+                <li>Best overall profit: <strong>Linear Policy</strong> 
+                    (€76.32)</li>
+                <li>Best risk-adjusted return: <strong>Linear Policy</strong> 
+                    (Sharpe ratio: 0.194)</li>
+                <li>Most active strategy: <strong>Linear Policy</strong> 
+                    (510 trades)</li>
+            </ul>
+            
+            <h2>Statistical Significance Tests</h2>
+            <p>Detailed statistical comparisons between strategies...</p>
+            
+        </body>
+        </html>
+        

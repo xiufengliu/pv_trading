@@ -1,0 +1,66 @@
+{
+  "ridge_alpha_0.01": {
+    "total_profit": 81.4794145588623,
+    "avg_profit_per_hour": 0.03117039577615237,
+    "sharpe_ratio": 0.23625607188101844,
+    "n_trades": 497,
+    "trade_ratio": 0.1901300688599847,
+    "imbalance_reduction": 0.2795464995187595
+  },
+  "ridge_alpha_0.1": {
+    "total_profit": 76.0666777338195,
+    "avg_profit_per_hour": 0.029099723693121464,
+    "sharpe_ratio": 0.20257888219510906,
+    "n_trades": 496,
+    "trade_ratio": 0.18974751338944146,
+    "imbalance_reduction": 0.19513069797244167
+  },
+  "ridge_alpha_1.0": {
+    "total_profit": 77.2570192922956,
+    "avg_profit_per_hour": 0.029555095368131445,
+    "sharpe_ratio": 0.20548820603891782,
+    "n_trades": 507,
+    "trade_ratio": 0.19395562356541698,
+    "imbalance_reduction": 0.1955650345028869
+  },
+  "ridge_alpha_10.0": {
+    "total_profit": 76.13379184274967,
+    "avg_profit_per_hour": 0.029125398562643335,
+    "sharpe_ratio": 0.20275721791132337,
+    "n_trades": 510,
+    "trade_ratio": 0.19510328997704668,
+    "imbalance_reduction": 0.19563182815619387
+  },
+  "lasso_alpha_0.01": {
+    "total_profit": 82.20566366949753,
+    "avg_profit_per_hour": 0.031448226346403034,
+    "sharpe_ratio": 0.23831786490354157,
+    "n_trades": 524,
+    "trade_ratio": 0.20045906656465187,
+    "imbalance_reduction": 0.28121870108341146
+  },
+  "lasso_alpha_0.1": {
+    "total_profit": 81.60425724144993,
+    "avg_profit_per_hour": 0.03121815502733356,
+    "sharpe_ratio": 0.2366828356791482,
+    "n_trades": 512,
+    "trade_ratio": 0.19586840091813312,
+    "imbalance_reduction": 0.27848030261779955
+  },
+  "lasso_alpha_1.0": {
+    "total_profit": 75.73887684916045,
+    "avg_profit_per_hour": 0.028974321671446233,
+    "sharpe_ratio": 0.20313057568673581,
+    "n_trades": 501,
+    "trade_ratio": 0.19166029074215762,
+    "imbalance_reduction": 0.19534273317212628
+  },
+  "no_regularization": {
+    "total_profit": 81.50214000864354,
+    "avg_profit_per_hour": 0.03117908952128674,
+    "sharpe_ratio": 0.23631445153671576,
+    "n_trades": 508,
+    "trade_ratio": 0.1943381790359602,
+    "imbalance_reduction": 0.28188344896532636
+  }
+}
